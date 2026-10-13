@@ -1,0 +1,14 @@
+{
+  "name": "slotkit-demo",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "node --env-file=.env src/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:live": "bash scripts/verify-local.sh",
+    "test:guide": "node --env-file=.env scripts/public-guide-check.mjs"
+  }
+}

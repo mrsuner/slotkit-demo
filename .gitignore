@@ -1,0 +1,10 @@
+# Credentials and local runtime configuration
+.env
+.env.*
+!.env.example
+# SQLite, fixture credentials, synthetic provider state and generated screenshots
+data/
+artifacts/
+node_modules/
+*.log
+.DS_Store
